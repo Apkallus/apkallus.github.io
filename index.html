@@ -1,0 +1,72 @@
+<!doctype html>
+<!-- 文档类型声明，遗留 -->
+
+<html lang="en-US">
+  <!-- html 元素包裹整个页面的所有内容，根元素
+   lang 属性设置文档主要语言   -->
+  <head>
+    <!-- head 元素作为容器，存放所有非内容元素 -->
+    <meta charset="utf-8" />
+    <!-- meta charset 设置文档字符集 -->
+
+    <meta name="viewport" content="width=device-width" />
+    <!-- viewport 元素确保页面以浏览器视口的宽度渲染，防止移动浏览器渲染超出视口宽度的页面，然后再将其缩小。 -->
+
+    <title>My test page</title>
+    <!-- title 元素设置页面的标题，这是在浏览器标签中加载页面时显示的标题。它也用于描述当您将页面加入书签/收藏时的情况。 -->
+    <link href="styles/style.css" rel="stylesheet" />
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    /> -->
+    <!-- preconnect 减少连接加载延迟 
+     crossorigin 允许跨源资源访问 -->
+    <link
+      href="https://fonts.lug.ustc.edu.cn/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script async src="scripts/main.js"></script>
+    <!-- async 表示脚本采用异步加载模式
+     无阻塞加载，下载完成后立即执行 -->
+  </head>
+
+  <body>
+    <!-- body 元素包含所有你想在用户访问你的页面时展示的内容 -->
+    <!-- 4 heading levels: -->
+    <h1>My main title</h1>
+    <h2>My top level heading</h2>
+    <h3>My subheading</h3>
+    <h4>My sub-subheading</h4>
+    <!-- HTML 包含 6 个标题级别，h1-h6 -->
+
+    <img src="images/firefox-icon.png" alt="firefox icon" />
+    <!-- img 元素使用其 属性src 的路径嵌入图像 
+      alt 属性 为无法看到图像的用户指定描述性文本-->
+
+    <p>This is a single paragraph</p>
+    <!-- 段落 p 元素用于包含文本段落 -->
+
+    <p>At Mozilla, we're a global community of</p>
+
+    <ul>
+      <li>technologists</li>
+      <li>thinkers</li>
+      <li>builders</li>
+    </ul>
+    <!-- 无序列表用于项目顺序无关紧要的列表，例如购物清单。这些列表被包裹在 <ul> 元素中。
+    有序列表 用于项目顺序重要的列表，例如食谱中的烹饪步骤列表。这些列表被包裹在一个 <ol> 元素中。
+    列表中的每个项目都放在一个 <li>（列表项）元素内。 -->
+    <p>working together…</p>
+
+    <a href="https://www.mozilla.org/en-US/about/manifesto/">
+      Mozilla Manifesto
+    </a>
+    <!-- 要添加链接，我们需要使用一个 <a> 元素，“a”是“anchor”（锚点）的缩写 -->
+
+    <button>Change user</button>
+  </body>
+</html>
