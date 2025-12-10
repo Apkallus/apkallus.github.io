@@ -1,4 +1,6 @@
-- Perform a DOM XSS attack with ```<iframe src="javascript:alert(`xss`)">```.
+- DOM XSS
+    - 描述：提供的攻击向量执行 DOM XSS
+        > ```Perform a DOM XSS attack with <iframe src="javascript:alert(`xss`)">```.
     - 指导教程：尝试使用搜索功能
     - 搜索 fooooooo
         - 搜索字符回显到结果页面
@@ -32,7 +34,7 @@
         <iframe src="javascript:alert(`xss`)">
         ```
         - 触发弹窗
-    - 作为初始漏洞提供了攻击向量，不同于通常查看 JavaScript 代码确定源与汇的 DOM XSS。
+    - 作为初始漏洞提供了攻击向量，不同于通常查看 JavaScript 代码确定源与汇的 DOM XSS。代码存在于```/main.js```文件中
 - 编程挑战
     ```typescript
 	filterTable () {
@@ -66,3 +68,4 @@
         其他修复选项均为同样直白的```bypassSecurityTrustXX```
     - Angular 框架 DomSanitizer 服务的```bypassSecurityTrustHtml```函数
         > 绕过安全检查，并信任给定的值是一个安全的 HTML。  
+    - 检查输入而不是绕过
