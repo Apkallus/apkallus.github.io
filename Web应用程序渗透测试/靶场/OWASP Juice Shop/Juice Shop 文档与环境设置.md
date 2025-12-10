@@ -7,6 +7,7 @@
         - 完全使用 JavaScript/TypeScript 编写的应用程序
         - RESTful API
         - 运行时自我恢复，使用cookie保存进度，也可使用备份与恢复功能
+        - JavaScript 代码压缩/丑化，更难阅读
 
     - [架构描述](https://pwning.owasp-juice.shop/companion-guide/latest/introduction/architecture.html)：  
     ![架构图](./architecture-diagram.png)
@@ -38,5 +39,6 @@
 - 计划
     - 结合 OWASP Web 安全测试指南 与 PortSwigger Web Security Academy 的主题文档，在进行 OWASP Juice Shop 靶场的过程中构建 Web应用程序渗透测试的概念框架
     - 使用分类映射
-    - 使用靶场教学模式/提示以及 Juice Shop 指南
-
+    - 使用靶场教学模式/提示以及 [Juice Shop 指南的提示/解决方案](https://pwning.owasp-juice.shop/companion-guide/latest/part2/README.html)
+    - 在计分板的设置中时常备份进度
+    - 使用```beautifier.io```等代码格式化工具还原被压缩的代码以便于阅读
