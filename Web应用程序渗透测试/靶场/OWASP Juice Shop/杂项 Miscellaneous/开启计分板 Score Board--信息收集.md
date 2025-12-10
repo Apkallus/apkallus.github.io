@@ -1,6 +1,5 @@
 - Score Board
     - 描述：寻找隐藏的计分板
-        > ```Find the carefully hidden 'Score Board' page.```
     - 指导教程：猜测计分板 URL 或查看 JavaScript 代码
     1. 访问首页后在 burp 的代理历史记录中过滤关键词“board”
     2. 查看剩余消息，其中
@@ -21,6 +20,8 @@
         使用此信息访问```http://127.0.0.1:3000/#/score-board```进入计分板
     - 之前的猜测没有获得足够多的信息：```ScoreBoard```与```scoreboard```。
     命名模式为单词之间使用连字符```-```
+    - 对应 URL 在 ```.well-known``` 目录下
+    ```http://localhost:3000/.well-known/security.txt```
 
 
 - 编程挑战

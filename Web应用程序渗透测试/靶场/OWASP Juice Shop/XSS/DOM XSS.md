@@ -1,6 +1,8 @@
 - DOM XSS
-    - 描述：提供的攻击向量执行 DOM XSS
-        > ```Perform a DOM XSS attack with <iframe src="javascript:alert(`xss`)">```.
+    - 描述：使用提供的攻击向量进行 DOM XSS
+        ```html
+        <iframe src="javascript:alert(`xss`)">
+        ```
     - 指导教程：尝试使用搜索功能
     - 搜索 fooooooo
         - 搜索字符回显到结果页面
