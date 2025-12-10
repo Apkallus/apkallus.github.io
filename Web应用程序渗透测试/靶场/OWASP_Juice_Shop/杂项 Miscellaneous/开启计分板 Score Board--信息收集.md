@@ -1,4 +1,6 @@
-- Find the carefully hidden 'Score Board' page.
+- Score Board
+    - 描述：寻找隐藏的计分板
+        > ```Find the carefully hidden 'Score Board' page.```
     - 指导教程：猜测计分板 URL 或查看 JavaScript 代码
     1. 访问首页后在 burp 的代理历史记录中过滤关键词“board”
     2. 查看剩余消息，其中
