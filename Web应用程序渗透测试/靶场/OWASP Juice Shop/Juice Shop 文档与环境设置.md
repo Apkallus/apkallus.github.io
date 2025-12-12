@@ -39,6 +39,6 @@
 - 计划
     - 结合 OWASP Web 安全测试指南 与 PortSwigger Web Security Academy 的主题文档，在进行 OWASP Juice Shop 靶场的过程中构建 Web应用程序渗透测试的概念框架
     - 使用分类映射
-    - 使用靶场教学模式/提示以及 [Juice Shop 指南的提示/解决方案](https://pwning.owasp-juice.shop/companion-guide/latest/part2/README.html)
+    - 使用靶场~~教学模式~~/提示以及 [Juice Shop 指南的提示/解决方案](https://pwning.owasp-juice.shop/companion-guide/latest/part2/README.html)
     - 在计分板的设置中时常备份进度
     - 使用```beautifier.io```等代码格式化工具还原被压缩的代码以便于阅读
