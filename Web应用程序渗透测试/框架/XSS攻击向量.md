@@ -12,3 +12,7 @@
 - HTML 元素上下文
     - ```<code>``` 元素并不自动对文本段内容进行转义
     - ```<textarea>``` 如何？如果注入 ```</textarea>``` 如何？
+
+- 绕过防护过滤
+    - OWASP Juice Shop - XSS - D4 Server-side XSS Protection
+        非迭代的仅删除一次 HTML 标记对
