@@ -9,3 +9,9 @@
 - 更改默认信息显示字体为 Consolas
 - 开启配置缩放设置
 - 使用 Burp 内置 Chrome 浏览器或在 Firefox 的代理设置中添加排除项 ```firefox.com, mozilla.com, mozilla.net, mozilla.org, darkreader.org, bing.com, googleapis.com, linkedin.com, youtube.com, portswigger.net, google.com, immersivetranslate.com, immersivetranslate.cn```
+
+- 社交媒体账户查询
+    - https://github.com/sherlock-project/sherlock
+
+- 历史档案查询
+    - https://archive.org/web/
