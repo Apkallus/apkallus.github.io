@@ -54,6 +54,8 @@
         使用受限制网络进行信息搜集
     - Miscellaneous - Security Advisory
         定位了对应文件，但不知 ```a suitable checksum as proof```指什么，尝试提交对应 json 文件的哈希，但无法通过
+    - Injection - SSTi
+        > 请注意，当在 Docker 容器或 Heroku dyno 中运行 Juice Shop 时，此挑战不可用！无法以“安全”的方式实现此漏洞，而没有任何底层系统被攻破的风险。
 - 未归类
     - Improper Input Validation - Admin Registration
         注册时在提交的输入中添加账户角色属性设置，注册拥有管理员权限的账户
