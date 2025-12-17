@@ -58,6 +58,16 @@
         > 请注意，当在 Docker 容器或 Heroku dyno 中运行 Juice Shop 时，此挑战不可用！无法以“安全”的方式实现此漏洞，而没有任何底层系统被攻破的风险。
     - Broken Access Control - SSRF    
         前置挑战 Injection - SSTi 无法在 Docker 运行
+    - Security Misconfiguration - Login Support Team :x:
+        下载加密文件，使用暴力破解脚本或工具测试弱密码
+        使用哪些工具？如何操作文件？暂时略过，但在之后应当确保完成
+        python 拥有对应的库
+        如何根据已知密码规则修改爆破单词表？
+    - Broken Anti Automation - Reset Morty's Password
+        对两个单词的大小写与数字的 leet 变体创建单词表
+        之后尝试创建自己的单词表
+    - Cryptographic Issues - Forged Coupon :x:
+
 - 未归类
     - Improper Input Validation - Admin Registration
         注册时在提交的输入中添加账户角色属性设置，注册拥有管理员权限的账户
