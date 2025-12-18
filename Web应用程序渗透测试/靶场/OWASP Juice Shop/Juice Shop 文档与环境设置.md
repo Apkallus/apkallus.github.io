@@ -42,16 +42,21 @@
     - 使用靶场~~教学模式~~/提示以及 [Juice Shop 指南的提示/解决方案](https://pwning.owasp-juice.shop/companion-guide/latest/part2/README.html)
     - 在计分板的设置中时常备份进度
     - 使用```beautifier.io```等代码格式化工具还原被压缩的代码以便于阅读
+    - 对应用程序进行分析时应当构建功能结构表，并保存或记录感兴趣的消息
 
 - 暂略
+    - 暂时跳过所有加密货币相关内容
     - Cryptographic Issues - Weird Crypto
         使用 ```MD5```通过挑战，但[示例解决方案](https://pwning.owasp-juice.shop/companion-guide/latest/appendix/solutions.html#_inform_the_shop_about_an_algorithm_or_library_it_should_definitely_not_use_the_way_it_does)中拥有对其他挑战的不当加密的剧透，暂且忽略
     - Sensitive Data Exposure - NFT Takeover
         代码挑战的代码修复显示异常
     - Improper Input Validation - Mint the Honey Pot
         设置钱包与获取测试币
-    - Sensitive Data Exposure - Reset Uvogin's Password
+    - Sensitive Data Exposure - Reset Uvogin's Password :x:
         使用受限制网络进行信息搜集
+        根据语言风格推测化名
+        使用社交媒体搜索软件以及历史档案库站点搜集信息
+        值得之后重试
     - Miscellaneous - Security Advisory
         定位了对应文件，但不知 ```a suitable checksum as proof```指什么，尝试提交对应 json 文件的哈希，但无法通过
     - Injection - SSTi
@@ -63,11 +68,15 @@
         使用哪些工具？如何操作文件？暂时略过，但在之后应当确保完成
         python 拥有对应的库
         如何根据已知密码规则修改爆破单词表？
-    - Broken Anti Automation - Reset Morty's Password
+    - Broken Anti Automation - Reset Morty's Password :x:
         对两个单词的大小写与数字的 leet 变体创建单词表
         之后尝试创建自己的单词表
     - Cryptographic Issues - Forged Coupon :x:
-
+        值得再次分析
+    - Sensitive Data Exposure - Leaked API Key :x:
+        未提供解决方案，或许与自动优惠券机器人有关，但如何探查 API 密钥泄露？
+    - XSS - Video XSS :x:
+        对目录的探索值得继续分析
 - 未归类
     - Improper Input Validation - Admin Registration
         注册时在提交的输入中添加账户角色属性设置，注册拥有管理员权限的账户

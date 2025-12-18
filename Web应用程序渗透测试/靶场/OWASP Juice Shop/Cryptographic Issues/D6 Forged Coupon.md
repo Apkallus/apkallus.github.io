@@ -1,6 +1,6 @@
 ---
 title: Forged Coupon
-description: pass
+description: 获得尽可能多的字符串序列，并根据上下文进行分类，对序列模式进行分析。查看依赖项并根据字符类型推测混淆/加密库，实际安装对应库进行解密与生成。查看字符串序列的各种可能来源及其所使用的代码库，此处为优惠券 bot，对工作流程与代码进行分析，在此过程中可能获得更多序列；或者继续探索代码的历史提交变更记录，根据演变推测当前代码使用的 API 或库的内容
 ---
 
 - 描述：Forge a coupon code that gives you a discount of at least 80%.
@@ -23,7 +23,7 @@ description: pass
 
 - 使用优惠券的请求为
     ```PUT /rest/basket/3/coupon/n%3CMibgC7sn HTTP/1.1```
-:x: 未完成，值得之后仔细尝试
+:x: 未彻底完成，值得之后仔细尝试
 - 查看示例解决方案
     - 方向一：根据已知优惠券列表，推测前半为 id 后半为折扣。
     对后半内容进行爆破，直到得到目标折扣兑换券
