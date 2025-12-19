@@ -1,6 +1,6 @@
 ## 集成工具
 ### Burp
-1. 使用[Burp 社区版](https://portswigger.net/burp/releases#community)的功能几乎足够
+1. 使用[Burp 社区版](https://portswigger.net/burp/communitydownload)的功能几乎足够
 2. 在浏览器中手动设置代理为 Burp 的监听地址
 3. [安装Burp CA 证书](https://portswigger.net/burp/documentation/desktop/external-browser-config/certificate)：
     1. 使用浏览器访问拦截代理服务器的地址下载证书

@@ -1,6 +1,7 @@
 - Mint the Honey Pot
     - 描述：通过从蜜蜂天堂收集 BEEs 来铸造 Honey Pot NFT。
     - 在 ```main.js``` 中找到路由 ```bee-haven```
+        也存在于照片墙的描述中
     - 访问 ```http://127.0.0.1:3000/#/bee-haven```
         - 或在图片墙发现相关路由
             ```Welcome to the Bee Haven (/#/bee-haven)🐝 (© evmrox)```
